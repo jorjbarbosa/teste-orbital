@@ -2,7 +2,6 @@ import Cookie from "js-cookie";
 
 export default {
     register(data) {
-        console.log(data)
         return axios.post(`${APP_URL}/api/users`, data);
     },
     login(data) {

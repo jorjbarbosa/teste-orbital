@@ -7,7 +7,7 @@
                     <div class="card-body">
                         <form @submit.stop.prevent="login">
                             <div class="mb-2">
-                                <label for="name" class="form-label">Nome</label>
+                                <label for="name" class="form-label">E-mail</label>
                                 <input type="text" class="form-control" v-model="email">
                             </div>
                             <div class="mb-2">

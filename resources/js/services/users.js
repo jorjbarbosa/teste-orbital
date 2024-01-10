@@ -3,10 +3,10 @@ import Cookie from "js-cookie";
 export default {
     register(data) {
         console.log(data)
-        return axios.post(`http://teste-orbital.test/api/users`, data);
+        return axios.post(`${APP_URL}/api/users`, data);
     },
     login(data) {
-        return axios.post(`http://teste-orbital.test/api/login`, data, {
+        return axios.post(`${APP_URL}/api/login`, data, {
             headers: {
                 "Content-type": "application/json",
                 "Access": "application/json",
@@ -15,7 +15,7 @@ export default {
     },
     logout() {
         const token = Cookie.get('jwt_token');
-        return axios.post(`http://teste-orbital.test/api/logout`, {}, {
+        return axios.post(`${APP_URL}/api/logout`, {}, {
             headers: {
                 "Authorization": `bearer ${token}`
             }

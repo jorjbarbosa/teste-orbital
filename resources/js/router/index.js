@@ -15,12 +15,14 @@ const routes = [
     {
         path: '/login',
         name: 'login',
-        component: Login
+        component: Login,
+        beforeEnter: Guard.isLoggedIn
     },
     {
         path: '/register',
         name: 'register',
-        component: Register
+        component: Register,
+        beforeEnter: Guard.isLoggedIn
     },
     {
         path: '/product',

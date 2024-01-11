@@ -76,4 +76,4 @@ A interface da aplicação consistem em um SPA desenvolvido com Vue.js, Bootstra
 ![Tela de login](https://i.imgur.com/XJsSbAW.jpg)
 
 ## Demonstração da aplicação (Nova URL):
-[Demo](https://5edc-2804-14d-148e-8062-b9af-891f-fbe6-70eb.ngrok-free.app)
+[Demo](https://dd6b-2804-14d-148e-8062-f0cb-a4b9-4c9b-c851.ngrok-free.app)
